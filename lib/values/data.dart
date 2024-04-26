@@ -99,11 +99,7 @@ class Data {
     NavItemData(
       name: StringConst.CERTIFICATIONS,
       route: StringConst.CERTIFICATION_PAGE,
-    ),
-    NavItemData(
-      name: StringConst.PROJECT,
-      route: StringConst.PROJECT_DETAIL_PAGE,
-    ),
+    )
   ];
 
   static List<SocialData> socialData = [
@@ -208,7 +204,7 @@ class Data {
   ];
 
   static List<ExperienceData> experienceData = [
-     ExperienceData(
+    ExperienceData(
       company: StringConst.COMPANY_6,
       position: StringConst.POSITION_6,
       companyUrl: StringConst.COMPANY_6_URL,
